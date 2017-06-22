@@ -1,0 +1,47 @@
+{
+  "contract_name": "HelloWorld",
+  "abi": [
+    {
+      "constant": false,
+      "inputs": [],
+      "name": "botaBalance",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "_amount",
+          "type": "uint256"
+        }
+      ],
+      "name": "deposit",
+      "outputs": [],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "payable": false,
+      "type": "constructor"
+    }
+  ],
+  "unlinked_binary": "0x60606040523415600b57fe5b5b6103096000555b5b609a806100226000396000f300606060405263ffffffff60e060020a60003504166340418eef8114602a578063b6b55f25146049575bfe5b3415603157fe5b6037605b565b60408051918252519081900360200190f35b3415605057fe5b60596004356062565b005b6000545b90565b60008054820190555b505600a165627a7a72305820299ad7e9868bfb777b0ec015c6efc268bbe6122277ddfcc20a5c0165b079e79e0029",
+  "networks": {
+    "1498162669231": {
+      "events": {},
+      "links": {},
+      "address": "0xe398015d8853f4ae2a7326e5288a8b200d54aef4",
+      "updated_at": 1498170515992
+    }
+  },
+  "schema_version": "0.0.5",
+  "updated_at": 1498170515992
+}

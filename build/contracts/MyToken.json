@@ -1,0 +1,74 @@
+{
+  "contract_name": "MyToken",
+  "abi": [
+    {
+      "constant": true,
+      "inputs": [
+        {
+          "name": "_user",
+          "type": "address"
+        }
+      ],
+      "name": "botaBalance",
+      "outputs": [
+        {
+          "name": "_balance",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "owner",
+      "outputs": [
+        {
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "_to",
+          "type": "address"
+        },
+        {
+          "name": "amount",
+          "type": "uint256"
+        }
+      ],
+      "name": "transfer",
+      "outputs": [
+        {
+          "name": "success",
+          "type": "bool"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "payable": false,
+      "type": "constructor"
+    }
+  ],
+  "unlinked_binary": "0x6060604052341561000c57fe5b5b60018054600160a060020a03191633600160a060020a0390811691909117918290551660009081526020819052604090206103e890555b5b61017e806100546000396000f300606060405263ffffffff60e060020a60003504166380d7d22581146100375780638da5cb5b14610065578063a9059cbb14610091575bfe5b341561003f57fe5b610053600160a060020a03600435166100c4565b60408051918252519081900360200190f35b341561006d57fe5b6100756100e3565b60408051600160a060020a039092168252519081900360200190f35b341561009957fe5b6100b0600160a060020a03600435166024356100f2565b604080519115158252519081900360200190f35b600160a060020a0381166000908152602081905260409020545b919050565b600154600160a060020a031681565b600160a060020a0333166000908152602081905260408120548290106101475750600160a060020a0333811660009081526020819052604080822080548590039055918416815220805482019055600161014b565b5060005b5b929150505600a165627a7a72305820f2450069546880058de69074d8a4a46de44ae2d7d395c7c531effffef673c3940029",
+  "networks": {
+    "1498162669231": {
+      "events": {},
+      "links": {},
+      "address": "0xe80ca9b4c6a5ffe517aec3cfe9525af7ad9feab2",
+      "updated_at": 1498170515992
+    }
+  },
+  "schema_version": "0.0.5",
+  "updated_at": 1498170515992
+}

@@ -1,0 +1,11 @@
+truffle(development)> HelloWorld.deployed().then(function(instance) { instance.botaBalance.call().then(console.log) } )
+
+truffle(development)> { [String: '2000'] s: 1, e: 3, c: [ 2000 ] }
+
+truffle(development)> HelloWorld.deployed().then(function(instance) { instance.deposit(827).then(console.log) } )
+
+
+## Get Balance from ether accounts
+truffle(development)> web3.eth.getBalance(accounts[0])
+{ [String: '99785301600000000000'] s: 1, e: 19, c: [ 997853, 1600000000000 ] }
+
