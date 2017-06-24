@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
 import Web3 from 'web3';
-import _ from 'lodash';
 
 var ETHEREUM_CLIENT = new Web3(new Web3.providers.HttpProvider("http://localhost:8545"))
 
@@ -37,7 +36,7 @@ class App extends Component {
   render() {
 		var TableRows = []	
 
-		_.each(this.state.firstNames, (value, index) => {
+		this.state.firstNames.forEach( (value, index) => {
 			TableRows.push(
 				<tr>
 					<td>{ETHEREUM_CLIENT.toAscii(this.state.firstNames[index]).replace(/\0[\s\S]*$/g,'')}</td>
