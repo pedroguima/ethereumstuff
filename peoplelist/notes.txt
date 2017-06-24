@@ -1,0 +1,1 @@
+People.deployed().then(function (instance) { instance.addPerson("meh", "tobias", 13).then(instance.getPeople().then(console.log)) })
